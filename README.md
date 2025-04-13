@@ -92,7 +92,8 @@ To fix this just add desired flags to package override.
     * `sys-libs/ncurses abi_x86_32`
     * then `emerge -1 sys-libs/ncurses -q`
 
-### Using overlays (https://wiki.gentoo.org/wiki/Eselect/Repository)
+### Using overlays
+https://wiki.gentoo.org/wiki/Eselect/Repository
 1. `emerge app-eselect/eselect-repository -q`
 2. `eselect repository add test git https://github.com/test/test.git`
 3. `emaint sync -r test`
